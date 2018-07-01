@@ -48,6 +48,8 @@ compose-preview
     ```yaml
     version: '3'
     services:
+      db:
+        image: mongo:3.4
       web:
         image: dotpy3/my-web-app:2.0
         env:
